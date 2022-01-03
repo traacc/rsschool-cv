@@ -11,3 +11,10 @@ I'm Maxim Fomin, I want to become Front-end Developer. Now I work as a sysadmin 
 **Nizhny Novgorod State University, Arzamas Campus**
 *Part-time job, Helpdesk 
 2017-2020*
+
+## Skills
+- English: 4/10
+- Linux: 5/10
+- HTML/CSS: 5/10
+- Javascript: 3/10
+- Python: 2/10
