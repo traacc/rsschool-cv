@@ -7,3 +7,11 @@ I'm Maxim Fomin from Nizhny Novgorod. I want to become Front-end developer. Now 
 ## Career
 **Nizhny Novgorod State University, Arzamas Campus**
 *Part-time job, Helpdesk, 2017-2020*
+## Skills
+- English [4/10]
+- Linux [4/10]
+- HTML/CSS [5/10]
+- Javascript [3/10]
+- Python [2/10]
+## Contacts
+- **Email**: mf.arzamas@gmail.com
