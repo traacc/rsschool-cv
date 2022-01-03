@@ -1,1 +1,1 @@
-https://traacc.github.io/rsschool-cv/cv
+https://traacc.github.io/rsschool-cv/
