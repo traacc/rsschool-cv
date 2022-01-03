@@ -1,1 +1,1 @@
-# rsschool-cv
+https://traacc.github.io/rsschool-cv/

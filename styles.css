@@ -1,0 +1,235 @@
+@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local("Roboto"),url(./fonts/roboto-regular-webfont.woff2) format("woff2")} 
+@font-face{font-family:Roboto;font-style:italic;font-weight:400;src:local("Roboto"),url(./fonts/roboto-italic-webfont.woff2) format("woff2")} 
+@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local("Roboto"),url(./fonts/roboto-bold-webfont.woff2) format("woff2")} 
+@font-face{font-family:Roboto;font-style:italic;font-weight:700;src:local("Roboto"),url(./fonts/roboto-bolditalic-webfont.woff2) format("woff2")} 
+
+/* Reset begin */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset end */
+
+:root {
+    --header-color: rgb(19, 140, 159);
+    --white-color: rgb(252, 254, 249);
+    --accent-color: rgb(251, 202, 11);
+    --text-color: rgb(2,2,2);
+
+}
+
+body {
+    font-family:Roboto;
+    font-size: 16px;
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+header a:link, footer a:link {
+    color: var(--accent-color);
+}
+
+header a:hover, footer a:hover {
+    text-decoration: none;
+}
+
+header a:visited, footer a:visited {
+    color: rgb(255, 229, 125);
+}
+
+header {
+    background-color: var(--header-color);
+    color: var(--white-color);
+}
+
+header h1 {
+    color: var(--accent-color);
+    font-size: 1.6em;
+    font-weight: 700;
+    padding-top: 0.4em;
+    padding-left: 1em;
+}
+
+header .header__info img{
+    width: 14em;
+    border-radius: 100%;
+}
+
+header .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.header__contacts {
+    font-weight: 500;
+    font-size: 1.1em;
+    /*text-align: right;*/
+}
+
+.header__contacts li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.header__contacts img {
+    width: 2em;
+
+    margin-right: 1em;
+}
+
+.header__content, main section, .footer__content{
+    padding: 0 2em;
+}
+
+.main section {
+    padding-top: 2em;
+}
+
+.main h2 {
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: normal;
+    margin-bottom: 0.8em;
+}
+
+.main .title{
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-bottom: 0.4em;
+}
+
+.main .note {
+    font-style: italic;
+    padding-bottom: 0.4em;
+}
+
+.skills__item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 21.5em;
+}
+
+.skills__block {
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 8px;
+    width: 11em;
+    height: 1em;
+    position: relative;
+    margin-bottom: 1.2em;
+}
+
+.skills__block::after {
+    content: '';
+    background-color: var(--header-color);
+    position: absolute;
+    
+    border: 1px solid var(--header-color);
+    border-radius: 4px;
+    width: 0.65em;
+    height: 1.6em;
+    left: 0;
+    top: -5px;
+}
+
+.english .skills__block::after {
+    left: 3em;
+}
+
+.linux .skills__block::after {
+    left: 4em;
+}
+
+.html .skills__block::after {
+    left: 4em;
+}
+.js .skills__block::after {
+    left: 2em;
+}
+.py .skills__block::after {
+    left: 1em;
+}
+
+.example__content {
+    background-color: rgba(239, 241, 243);
+    border: 1px solid rgba(239, 241, 243);
+    border-radius: 10px;
+    padding: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 18em;
+
+}
+
+footer {
+    background-color: var(--header-color);
+    color: var(--white-color);
+    
+    margin-top: 2em;
+    
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.footer__course .logo{
+    width: 10em;
+}
